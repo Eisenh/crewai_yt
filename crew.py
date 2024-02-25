@@ -3,7 +3,7 @@ from crewai import Agent, Task, Crew, Process
 from textwrap import dedent
 from tools.scraper_tools import ScraperTool
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 scrape_tool = ScraperTool().scrape
 
